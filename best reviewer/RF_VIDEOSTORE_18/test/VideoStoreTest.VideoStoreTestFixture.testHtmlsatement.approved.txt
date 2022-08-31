@@ -1,0 +1,10 @@
+<H1>Rentals for <EM>John</EM></H1><P>
+&nbsp;&nbsp;&nbsp;&nbsp;삼시세끼 정선편 : 2<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;삼시세끼 어촌편 : 3.5<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;삼시세끼 바다목장편 : 3<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;삼시세끼 산촌편 : 6<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;삼시네세끼 : 1.5<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;삼시네세끼 : 3<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;삼시세끼 달나라편 : 10<BR>
+<P>Amount owed is <EM>29</EM><P>
+You earned <EM>8</EM> frequent renter points<P>

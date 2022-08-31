@@ -1,0 +1,14 @@
+/cygdrive/c/git/TDD_SUPERMARKET_18/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/CMakeFiles/edit_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/CMakeFiles/test.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/src/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/src/CMakeFiles/edit_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/src/CMakeFiles/test.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/src/CMakeFiles/Supermarket.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/test/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/test/CMakeFiles/edit_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/test/CMakeFiles/test.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/test/CMakeFiles/SupermarketTest.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/lib/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/lib/CMakeFiles/edit_cache.dir
+/cygdrive/c/git/TDD_SUPERMARKET_18/lib/CMakeFiles/test.dir

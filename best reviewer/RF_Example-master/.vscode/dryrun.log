@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/c/RF_Example-master'
+make: Leaving directory '/cygdrive/c/RF_Example-master'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

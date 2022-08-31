@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libGtestSample.a CMakeFiles/GtestSample.dir/MyString.cc.o CMakeFiles/GtestSample.dir/Source.cc.o CMakeFiles/GtestSample.dir/LibraryBook.cc.o
+/usr/bin/ranlib.exe libGtestSample.a

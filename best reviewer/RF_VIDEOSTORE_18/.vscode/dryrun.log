@@ -1,0 +1,49 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+/usr/bin/cmake.exe -S/cygdrive/c/git/RF_VIDEOSTORE_18 -B/cygdrive/c/git/RF_VIDEOSTORE_18 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake.exe -E cmake_progress_start /cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles /cygdrive/c/git/RF_VIDEOSTORE_18//CMakeFiles/progress.marks
+make -s -f CMakeFiles/Makefile2 all
+ 
+make[1]: Entering directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+make -s -f src/CMakeFiles/videoStore.dir/build.make src/CMakeFiles/videoStore.dir/depend
+ 
+make[2]: Entering directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+cd /cygdrive/c/git/RF_VIDEOSTORE_18 && /usr/bin/cmake.exe -E cmake_depends "Unix Makefiles" /cygdrive/c/git/RF_VIDEOSTORE_18 /cygdrive/c/git/RF_VIDEOSTORE_18/src /cygdrive/c/git/RF_VIDEOSTORE_18 /cygdrive/c/git/RF_VIDEOSTORE_18/src /cygdrive/c/git/RF_VIDEOSTORE_18/src/CMakeFiles/videoStore.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+ 
+make -s -f src/CMakeFiles/videoStore.dir/build.make src/CMakeFiles/videoStore.dir/build
+ 
+make[2]: Entering directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=4 "Building CXX object src/CMakeFiles/videoStore.dir/Customer.cpp.o"
+cd /cygdrive/c/git/RF_VIDEOSTORE_18/src && /usr/bin/c++.exe   -std=gnu++11 -MD -MT src/CMakeFiles/videoStore.dir/Customer.cpp.o -MF CMakeFiles/videoStore.dir/Customer.cpp.o.d -o CMakeFiles/videoStore.dir/Customer.cpp.o -c /cygdrive/c/git/RF_VIDEOSTORE_18/src/Customer.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=5 "Building CXX object src/CMakeFiles/videoStore.dir/Movie.cpp.o"
+cd /cygdrive/c/git/RF_VIDEOSTORE_18/src && /usr/bin/c++.exe   -std=gnu++11 -MD -MT src/CMakeFiles/videoStore.dir/Movie.cpp.o -MF CMakeFiles/videoStore.dir/Movie.cpp.o.d -o CMakeFiles/videoStore.dir/Movie.cpp.o -c /cygdrive/c/git/RF_VIDEOSTORE_18/src/Movie.cpp
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --bold --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=6 "Linking CXX static library libvideoStore.a"
+cd /cygdrive/c/git/RF_VIDEOSTORE_18/src && /usr/bin/cmake.exe -P CMakeFiles/videoStore.dir/cmake_clean_target.cmake
+cd /cygdrive/c/git/RF_VIDEOSTORE_18/src && /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/videoStore.dir/link.txt --verbose=
+make[2]: Leaving directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=4,5,6 "Built target videoStore"
+make -s -f test/CMakeFiles/VideoStoreTest.dir/build.make test/CMakeFiles/VideoStoreTest.dir/depend
+ 
+make[2]: Entering directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+cd /cygdrive/c/git/RF_VIDEOSTORE_18 && /usr/bin/cmake.exe -E cmake_depends "Unix Makefiles" /cygdrive/c/git/RF_VIDEOSTORE_18 /cygdrive/c/git/RF_VIDEOSTORE_18/test /cygdrive/c/git/RF_VIDEOSTORE_18 /cygdrive/c/git/RF_VIDEOSTORE_18/test /cygdrive/c/git/RF_VIDEOSTORE_18/test/CMakeFiles/VideoStoreTest.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+ 
+make -s -f test/CMakeFiles/VideoStoreTest.dir/build.make test/CMakeFiles/VideoStoreTest.dir/build
+ 
+make[2]: Entering directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=1 "Building CXX object test/CMakeFiles/VideoStoreTest.dir/googletest_approval_main.cc.o"
+cd /cygdrive/c/git/RF_VIDEOSTORE_18/test && /usr/bin/c++.exe  -I/cygdrive/c/git/RF_VIDEOSTORE_18/lib -std=gnu++11 -MD -MT test/CMakeFiles/VideoStoreTest.dir/googletest_approval_main.cc.o -MF CMakeFiles/VideoStoreTest.dir/googletest_approval_main.cc.o.d -o CMakeFiles/VideoStoreTest.dir/googletest_approval_main.cc.o -c /cygdrive/c/git/RF_VIDEOSTORE_18/test/googletest_approval_main.cc
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=2 "Building CXX object test/CMakeFiles/VideoStoreTest.dir/VideoStoreTest.cc.o"
+cd /cygdrive/c/git/RF_VIDEOSTORE_18/test && /usr/bin/c++.exe  -I/cygdrive/c/git/RF_VIDEOSTORE_18/lib -std=gnu++11 -MD -MT test/CMakeFiles/VideoStoreTest.dir/VideoStoreTest.cc.o -MF CMakeFiles/VideoStoreTest.dir/VideoStoreTest.cc.o.d -o CMakeFiles/VideoStoreTest.dir/VideoStoreTest.cc.o -c /cygdrive/c/git/RF_VIDEOSTORE_18/test/VideoStoreTest.cc
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --bold --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=3 "Linking CXX executable VideoStoreTest.exe"
+cd /cygdrive/c/git/RF_VIDEOSTORE_18/test && /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/VideoStoreTest.dir/link.txt --verbose=
+make[2]: Leaving directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles --progress-num=1,2,3 "Built target VideoStoreTest"
+make[1]: Leaving directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+/usr/bin/cmake.exe -E cmake_progress_start /cygdrive/c/git/RF_VIDEOSTORE_18/CMakeFiles 0
+make: Leaving directory '/cygdrive/c/git/RF_VIDEOSTORE_18'
+ 

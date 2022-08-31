@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libPrimePrinter.a CMakeFiles/PrimePrinter.dir/PrimePrinter.cc.o
+/usr/bin/ranlib.exe libPrimePrinter.a

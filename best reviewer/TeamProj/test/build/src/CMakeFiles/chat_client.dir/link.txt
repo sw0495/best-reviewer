@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/chat_client.dir/main.cc.o -o chat_client.exe -Wl,--out-implib,libchat_client.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lcurl -ljsoncpp libChatClient.a -lcurl -ljsoncpp -lgcov 

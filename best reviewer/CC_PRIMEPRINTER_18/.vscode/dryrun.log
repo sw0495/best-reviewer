@@ -1,0 +1,45 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+/usr/bin/cmake.exe -S/cygdrive/c/git/CC_PRIMEPRINTER_18 -B/cygdrive/c/git/CC_PRIMEPRINTER_18 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake.exe -E cmake_progress_start /cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles /cygdrive/c/git/CC_PRIMEPRINTER_18//CMakeFiles/progress.marks
+make -s -f CMakeFiles/Makefile2 all
+ 
+make[1]: Entering directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+make -s -f src/CMakeFiles/PrimePrinter.dir/build.make src/CMakeFiles/PrimePrinter.dir/depend
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+cd /cygdrive/c/git/CC_PRIMEPRINTER_18 && /usr/bin/cmake.exe -E cmake_depends "Unix Makefiles" /cygdrive/c/git/CC_PRIMEPRINTER_18 /cygdrive/c/git/CC_PRIMEPRINTER_18/src /cygdrive/c/git/CC_PRIMEPRINTER_18 /cygdrive/c/git/CC_PRIMEPRINTER_18/src /cygdrive/c/git/CC_PRIMEPRINTER_18/src/CMakeFiles/PrimePrinter.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+make -s -f src/CMakeFiles/PrimePrinter.dir/build.make src/CMakeFiles/PrimePrinter.dir/build
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles --progress-num=1 "Building CXX object src/CMakeFiles/PrimePrinter.dir/PrimePrinter.cc.o"
+cd /cygdrive/c/git/CC_PRIMEPRINTER_18/src && /usr/bin/c++.exe   -std=gnu++11 -MD -MT src/CMakeFiles/PrimePrinter.dir/PrimePrinter.cc.o -MF CMakeFiles/PrimePrinter.dir/PrimePrinter.cc.o.d -o CMakeFiles/PrimePrinter.dir/PrimePrinter.cc.o -c /cygdrive/c/git/CC_PRIMEPRINTER_18/src/PrimePrinter.cc
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --bold --progress-dir=/cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles --progress-num=2 "Linking CXX static library libPrimePrinter.a"
+cd /cygdrive/c/git/CC_PRIMEPRINTER_18/src && /usr/bin/cmake.exe -P CMakeFiles/PrimePrinter.dir/cmake_clean_target.cmake
+cd /cygdrive/c/git/CC_PRIMEPRINTER_18/src && /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/PrimePrinter.dir/link.txt --verbose=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles --progress-num=1,2 "Built target PrimePrinter"
+make -s -f test/CMakeFiles/PrimePrinterTest.dir/build.make test/CMakeFiles/PrimePrinterTest.dir/depend
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+cd /cygdrive/c/git/CC_PRIMEPRINTER_18 && /usr/bin/cmake.exe -E cmake_depends "Unix Makefiles" /cygdrive/c/git/CC_PRIMEPRINTER_18 /cygdrive/c/git/CC_PRIMEPRINTER_18/test /cygdrive/c/git/CC_PRIMEPRINTER_18 /cygdrive/c/git/CC_PRIMEPRINTER_18/test /cygdrive/c/git/CC_PRIMEPRINTER_18/test/CMakeFiles/PrimePrinterTest.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+ 
+make -s -f test/CMakeFiles/PrimePrinterTest.dir/build.make test/CMakeFiles/PrimePrinterTest.dir/build
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles --progress-num=3 "Building CXX object test/CMakeFiles/PrimePrinterTest.dir/PrimePrinterTest.cc.o"
+cd /cygdrive/c/git/CC_PRIMEPRINTER_18/test && /usr/bin/c++.exe   -std=gnu++11 -MD -MT test/CMakeFiles/PrimePrinterTest.dir/PrimePrinterTest.cc.o -MF CMakeFiles/PrimePrinterTest.dir/PrimePrinterTest.cc.o.d -o CMakeFiles/PrimePrinterTest.dir/PrimePrinterTest.cc.o -c /cygdrive/c/git/CC_PRIMEPRINTER_18/test/PrimePrinterTest.cc
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --bold --progress-dir=/cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles --progress-num=4 "Linking CXX executable PrimePrinterTest.exe"
+cd /cygdrive/c/git/CC_PRIMEPRINTER_18/test && /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/PrimePrinterTest.dir/link.txt --verbose=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles --progress-num=3,4 "Built target PrimePrinterTest"
+ 
+make[1]: Leaving directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+ 
+/usr/bin/cmake.exe -E cmake_progress_start /cygdrive/c/git/CC_PRIMEPRINTER_18/CMakeFiles 0
+ 
+make: Leaving directory '/cygdrive/c/git/CC_PRIMEPRINTER_18'
+ 

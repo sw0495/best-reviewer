@@ -1,0 +1,10 @@
+Rental Record for John
+	삼시세끼 정선편	2
+	삼시세끼 어촌편	3.5
+	삼시세끼 바다목장편	3
+	삼시세끼 산촌편	6
+	삼시네세끼	1.5
+	삼시네세끼	3
+	삼시세끼 달나라편	10
+Amount owed is 29
+You earned 8 frequent renter points

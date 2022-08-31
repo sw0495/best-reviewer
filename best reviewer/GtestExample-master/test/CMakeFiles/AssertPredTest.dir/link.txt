@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/AssertPredTest.dir/AssertPredTest.cpp.o -o AssertPredTest.exe -Wl,--out-implib,libAssertPredTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest -lgtest_main ../src/libGtestSample.a 

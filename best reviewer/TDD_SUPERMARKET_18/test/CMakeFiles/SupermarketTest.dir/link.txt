@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/SupermarketTest.dir/googletest_approval_main.cc.o CMakeFiles/SupermarketTest.dir/SupermarketTest.cc.o -o SupermarketTest.exe -Wl,--out-implib,libSupermarketTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest ../src/libSupermarket.a 

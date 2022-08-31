@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libStatementPrinter.a CMakeFiles/StatementPrinter.dir/Play.cpp.o CMakeFiles/StatementPrinter.dir/PlayType.cpp.o CMakeFiles/StatementPrinter.dir/StatementPrinter.cpp.o
+/usr/bin/ranlib.exe libStatementPrinter.a

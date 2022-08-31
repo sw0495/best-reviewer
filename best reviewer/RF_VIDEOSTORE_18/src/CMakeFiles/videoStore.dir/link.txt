@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libvideoStore.a CMakeFiles/videoStore.dir/Customer.cpp.o CMakeFiles/videoStore.dir/Movie.cpp.o
+/usr/bin/ranlib.exe libvideoStore.a

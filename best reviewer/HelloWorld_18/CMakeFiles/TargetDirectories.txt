@@ -1,0 +1,11 @@
+/cygdrive/c/git/HelloWorld_18/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/git/HelloWorld_18/CMakeFiles/edit_cache.dir
+/cygdrive/c/git/HelloWorld_18/CMakeFiles/test.dir
+/cygdrive/c/git/HelloWorld_18/src/CMakeFiles/edit_cache.dir
+/cygdrive/c/git/HelloWorld_18/src/CMakeFiles/test.dir
+/cygdrive/c/git/HelloWorld_18/src/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/git/HelloWorld_18/src/CMakeFiles/HelloWorld.dir
+/cygdrive/c/git/HelloWorld_18/test/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/git/HelloWorld_18/test/CMakeFiles/edit_cache.dir
+/cygdrive/c/git/HelloWorld_18/test/CMakeFiles/test.dir
+/cygdrive/c/git/HelloWorld_18/test/CMakeFiles/HelloWordlTests.dir

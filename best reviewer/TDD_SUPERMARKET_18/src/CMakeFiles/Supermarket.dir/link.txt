@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libSupermarket.a CMakeFiles/Supermarket.dir/Discount.cc.o CMakeFiles/Supermarket.dir/Offer.cc.o CMakeFiles/Supermarket.dir/Product.cc.o CMakeFiles/Supermarket.dir/ProductQuantity.cc.o CMakeFiles/Supermarket.dir/Receipt.cc.o CMakeFiles/Supermarket.dir/ReceiptItem.cc.o CMakeFiles/Supermarket.dir/ReceiptPrinter.cc.o CMakeFiles/Supermarket.dir/ShoppingCart.cc.o CMakeFiles/Supermarket.dir/SupermarketCatalog.cc.o CMakeFiles/Supermarket.dir/Teller.cc.o CMakeFiles/Supermarket.dir/HtmlReceiptPrinter.cc.o
+/usr/bin/ranlib.exe libSupermarket.a

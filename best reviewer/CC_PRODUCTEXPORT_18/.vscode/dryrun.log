@@ -1,0 +1,67 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+/usr/bin/cmake.exe -S/cygdrive/c/git/CC_PRODUCTEXPORT_18 -B/cygdrive/c/git/CC_PRODUCTEXPORT_18 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake.exe -E cmake_progress_start /cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles /cygdrive/c/git/CC_PRODUCTEXPORT_18//CMakeFiles/progress.marks
+make -s -f CMakeFiles/Makefile2 all
+ 
+make[1]: Entering directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+make -s -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/depend
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18 && /usr/bin/cmake.exe -E cmake_depends "Unix Makefiles" /cygdrive/c/git/CC_PRODUCTEXPORT_18 /cygdrive/c/git/CC_PRODUCTEXPORT_18/src /cygdrive/c/git/CC_PRODUCTEXPORT_18 /cygdrive/c/git/CC_PRODUCTEXPORT_18/src /cygdrive/c/git/CC_PRODUCTEXPORT_18/src/CMakeFiles/src.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+ 
+make -s -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=4 "Building CXX object src/CMakeFiles/src.dir/Order.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT src/CMakeFiles/src.dir/Order.cpp.o -MF CMakeFiles/src.dir/Order.cpp.o.d -o CMakeFiles/src.dir/Order.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/src/Order.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=5 "Building CXX object src/CMakeFiles/src.dir/Price.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT src/CMakeFiles/src.dir/Price.cpp.o -MF CMakeFiles/src.dir/Price.cpp.o.d -o CMakeFiles/src.dir/Price.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/src/Price.cpp
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=6 "Building CXX object src/CMakeFiles/src.dir/Product.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT src/CMakeFiles/src.dir/Product.cpp.o -MF CMakeFiles/src.dir/Product.cpp.o.d -o CMakeFiles/src.dir/Product.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/src/Product.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=7 "Building CXX object src/CMakeFiles/src.dir/Store.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT src/CMakeFiles/src.dir/Store.cpp.o -MF CMakeFiles/src.dir/Store.cpp.o.d -o CMakeFiles/src.dir/Store.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/src/Store.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=8 "Building CXX object src/CMakeFiles/src.dir/StoreEvent.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT src/CMakeFiles/src.dir/StoreEvent.cpp.o -MF CMakeFiles/src.dir/StoreEvent.cpp.o.d -o CMakeFiles/src.dir/StoreEvent.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/src/StoreEvent.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=9 "Building CXX object src/CMakeFiles/src.dir/XMLExporter.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT src/CMakeFiles/src.dir/XMLExporter.cpp.o -MF CMakeFiles/src.dir/XMLExporter.cpp.o.d -o CMakeFiles/src.dir/XMLExporter.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/src/XMLExporter.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --bold --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=10 "Linking CXX static library libsrc.a"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/cmake.exe -P CMakeFiles/src.dir/cmake_clean_target.cmake
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/src && /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=4,5,6,7,8,9,10 "Built target src"
+ 
+make -s -f test/CMakeFiles/ProductExportApprovalTests.dir/build.make test/CMakeFiles/ProductExportApprovalTests.dir/depend
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18 && /usr/bin/cmake.exe -E cmake_depends "Unix Makefiles" /cygdrive/c/git/CC_PRODUCTEXPORT_18 /cygdrive/c/git/CC_PRODUCTEXPORT_18/test /cygdrive/c/git/CC_PRODUCTEXPORT_18 /cygdrive/c/git/CC_PRODUCTEXPORT_18/test /cygdrive/c/git/CC_PRODUCTEXPORT_18/test/CMakeFiles/ProductExportApprovalTests.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+ 
+make -s -f test/CMakeFiles/ProductExportApprovalTests.dir/build.make test/CMakeFiles/ProductExportApprovalTests.dir/build
+ 
+make[2]: Entering directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=1 "Building CXX object test/CMakeFiles/ProductExportApprovalTests.dir/unittest_main.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/test && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT test/CMakeFiles/ProductExportApprovalTests.dir/unittest_main.cpp.o -MF CMakeFiles/ProductExportApprovalTests.dir/unittest_main.cpp.o.d -o CMakeFiles/ProductExportApprovalTests.dir/unittest_main.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/test/unittest_main.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=2 "Building CXX object test/CMakeFiles/ProductExportApprovalTests.dir/XMLExporterTest.cpp.o"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/test && /usr/bin/c++.exe   --coverage -std=gnu++11 -MD -MT test/CMakeFiles/ProductExportApprovalTests.dir/XMLExporterTest.cpp.o -MF CMakeFiles/ProductExportApprovalTests.dir/XMLExporterTest.cpp.o.d -o CMakeFiles/ProductExportApprovalTests.dir/XMLExporterTest.cpp.o -c /cygdrive/c/git/CC_PRODUCTEXPORT_18/test/XMLExporterTest.cpp
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --green --bold --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=3 "Linking CXX executable ProductExportApprovalTests.exe"
+cd /cygdrive/c/git/CC_PRODUCTEXPORT_18/test && /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/ProductExportApprovalTests.dir/link.txt --verbose=
+make[2]: Leaving directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+ 
+/usr/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles --progress-num=1,2,3 "Built target ProductExportApprovalTests"
+ 
+make[1]: Leaving directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+ 
+/usr/bin/cmake.exe -E cmake_progress_start /cygdrive/c/git/CC_PRODUCTEXPORT_18/CMakeFiles 0
+ 
+make: Leaving directory '/cygdrive/c/git/CC_PRODUCTEXPORT_18'
+ 

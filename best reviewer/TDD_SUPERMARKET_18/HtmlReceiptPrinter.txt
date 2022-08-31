@@ -1,0 +1,94 @@
+#include "HtmlReceiptPrinter.h"
+#include <sstream>
+
+string HtmlReceiptPrinter::HtmlPrintReceipt(Receipt& receipt) 
+{
+    string result; 
+    
+    result.append(htmlReceiptHead());
+    for (auto & item : receipt.getReceiptItems()) {
+        string receiptItem = htmlPresentReceiptItem(item);
+        result.append(receiptItem);
+    }
+    for (auto & discount : receipt.getDiscounts()) {
+        string discountPresentation = htmlPresentDiscount(discount);
+        result.append(discountPresentation);
+    }
+
+    result.append(htmlPresentTotal(receipt));
+    result.append(htmlReceiptEnding());    
+    
+    return result;
+}
+
+
+string HtmlReceiptPrinter::htmlReceiptHead() 
+{
+    return "<table>\n";
+}
+
+string HtmlReceiptPrinter::htmlReceiptEnding() 
+{
+    return "</table>\n";
+}
+
+string HtmlReceiptPrinter::htmlPresentReceiptItem(ReceiptItem& item) 
+{
+    string totalPricePresentation = presentPrice(item.getTotalPrice());
+    string name = item.getProduct().getName();
+
+    string line = htmlFormatLineWithWhitespace(name, totalPricePresentation);
+
+    if (item.getQuantity() != 1) {
+        line += "<tr><td colspan=2>" + presentPrice(item.getPrice()) + " * " + presentQuantity(item) + "</td></tr>\n";
+    }
+    return line;
+}
+
+string HtmlReceiptPrinter::htmlPresentTotal(Receipt& receipt) 
+{
+    string name = "<b>Total: ";
+    string value = presentPrice(receipt.getTotalPrice());
+    return htmlFormatLineWithWhitespace(name, value) + "<tr><td colspan=2>&nbsp;</td></tr>\n";
+}
+
+string HtmlReceiptPrinter::htmlFormatLineWithWhitespace(string& name, string& value) 
+{
+
+    //string line(name);
+    string line;
+
+    line.append("<tr><td>");
+    line.append(name);
+    line.append("</td><td>");
+    line.append(value);
+    line.append("</td></tr>\n");
+    
+    return line;
+}
+
+string HtmlReceiptPrinter::htmlPresentDiscount(Discount& discount) 
+{
+    string name = discount.getDescription() + "(" + discount.getProduct().getName() + ")";
+    string value = "-" + presentPrice(discount.getDiscountAmount());
+
+    return htmlFormatLineWithWhitespace(name, value);
+} 
+
+string HtmlReceiptPrinter::presentPrice(double price)
+{
+    char buf[20];
+    snprintf(buf, 20, "%.2f", price);
+    return string(buf);
+}
+
+string HtmlReceiptPrinter::presentQuantity(ReceiptItem& item)
+{
+    char buf[20];    
+    if (ProductUnit::Each == item.getProduct().getUnit())
+        snprintf(buf, 20, "%x", (int)item.getQuantity());
+    else
+        snprintf(buf, 20, "%.3f", item.getQuantity());
+    return string(buf);
+}
+

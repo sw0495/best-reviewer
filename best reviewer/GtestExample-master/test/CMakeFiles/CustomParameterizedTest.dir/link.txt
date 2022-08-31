@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/CustomParameterizedTest.dir/CustomParameterizedTest.cpp.o -o CustomParameterizedTest.exe -Wl,--out-implib,libCustomParameterizedTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest -lgtest_main ../src/libGtestSample.a 
