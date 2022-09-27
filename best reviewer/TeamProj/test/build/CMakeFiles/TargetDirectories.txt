@@ -1,9 +1,0 @@
-/cygdrive/c/TeamProj/test/build/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/TeamProj/test/build/CMakeFiles/edit_cache.dir
-/cygdrive/c/TeamProj/test/build/src/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/TeamProj/test/build/src/CMakeFiles/edit_cache.dir
-/cygdrive/c/TeamProj/test/build/src/CMakeFiles/chat_client.dir
-/cygdrive/c/TeamProj/test/build/src/CMakeFiles/ChatClient.dir
-/cygdrive/c/TeamProj/test/build/test/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/TeamProj/test/build/test/CMakeFiles/edit_cache.dir
-/cygdrive/c/TeamProj/test/build/test/CMakeFiles/ChatClientTest.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/PrimePrinterTest.dir/PrimePrinterTest.cc.o -o PrimePrinterTest.exe -Wl,--out-implib,libPrimePrinterTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest -lgtest_main ../src/libPrimePrinter.a 

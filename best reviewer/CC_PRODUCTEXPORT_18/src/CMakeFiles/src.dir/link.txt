@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libsrc.a CMakeFiles/src.dir/Order.cpp.o CMakeFiles/src.dir/Price.cpp.o CMakeFiles/src.dir/Product.cpp.o CMakeFiles/src.dir/Store.cpp.o CMakeFiles/src.dir/StoreEvent.cpp.o CMakeFiles/src.dir/XMLExporter.cpp.o
-/usr/bin/ranlib.exe libsrc.a

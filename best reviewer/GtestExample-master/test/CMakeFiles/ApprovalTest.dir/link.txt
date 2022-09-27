@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/ApprovalTest.dir/googletest_approval_main.cc.o CMakeFiles/ApprovalTest.dir/ApprovalTest.cpp.o -o ApprovalTest.exe -Wl,--out-implib,libApprovalTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest -lgtest_main ../src/libGtestSample.a 

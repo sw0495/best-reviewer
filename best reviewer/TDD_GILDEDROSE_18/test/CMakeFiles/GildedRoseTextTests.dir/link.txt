@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/GildedRoseTextTests.dir/GildedRoseTextTests.cc.o -o GildedRoseTextTests.exe -Wl,--out-implib,libGildedRoseTextTests.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../src/libGildedRose.a 

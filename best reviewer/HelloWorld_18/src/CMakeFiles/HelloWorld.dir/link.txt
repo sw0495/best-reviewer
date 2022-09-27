@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libHelloWorld.a CMakeFiles/HelloWorld.dir/hello.cpp.o
-/usr/bin/ranlib.exe libHelloWorld.a

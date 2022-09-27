@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libGildedRose.a CMakeFiles/GildedRose.dir/GildedRose.cc.o
-/usr/bin/ranlib.exe libGildedRose.a

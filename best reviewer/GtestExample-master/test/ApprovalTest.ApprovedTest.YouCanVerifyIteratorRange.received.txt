@@ -1,6 +1,0 @@
-FIRST LETTER
-
-
-hello => h
-world => w
-

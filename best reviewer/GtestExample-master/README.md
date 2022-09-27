@@ -1,3 +1,0 @@
-### GtestExample
-
-google test example

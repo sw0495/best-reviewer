@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libRPNCalculator.a CMakeFiles/RPNCalculator.dir/RPNCalculator.cc.o
-/usr/bin/ranlib.exe libRPNCalculator.a

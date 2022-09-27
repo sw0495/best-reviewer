@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/HelloWordlTests.dir/main.cpp.o -o HelloWordlTests.exe -Wl,--out-implib,libHelloWordlTests.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest ../src/libHelloWorld.a 

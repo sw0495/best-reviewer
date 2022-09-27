@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libTVController.a CMakeFiles/TVController.dir/TVController.cpp.o
-/usr/bin/ranlib.exe libTVController.a

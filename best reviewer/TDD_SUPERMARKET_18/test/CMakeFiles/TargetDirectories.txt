@@ -1,3 +1,0 @@
-/cygdrive/c/git/TDD_SUPERMARKET_18/test/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/git/TDD_SUPERMARKET_18/test/CMakeFiles/edit_cache.dir
-/cygdrive/c/git/TDD_SUPERMARKET_18/test/CMakeFiles/SupermarketTest.dir

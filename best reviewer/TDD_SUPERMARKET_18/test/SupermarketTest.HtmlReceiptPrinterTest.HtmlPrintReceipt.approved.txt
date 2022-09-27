@@ -1,8 +1,0 @@
-<table>
-<tr><td>candy</td><td>16.00</td></tr>
-<tr><td colspan=2>1.60 * a</td></tr>
-<tr><td>10.0% off(candy)</td><td>-1.60</td></tr>
-<tr><td><b>Total: </td><td>14.40</td></tr>
-<tr><td colspan=2>&nbsp;</td></tr>
-</table>
-

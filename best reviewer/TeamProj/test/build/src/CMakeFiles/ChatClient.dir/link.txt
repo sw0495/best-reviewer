@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libChatClient.a CMakeFiles/ChatClient.dir/hardtoname.cc.o
-/usr/bin/ranlib.exe libChatClient.a

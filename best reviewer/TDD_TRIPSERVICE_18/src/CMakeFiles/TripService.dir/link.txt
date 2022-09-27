@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libTripService.a CMakeFiles/TripService.dir/UserSession.cpp.o
-/usr/bin/ranlib.exe libTripService.a
